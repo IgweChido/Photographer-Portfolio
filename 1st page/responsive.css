@@ -1,0 +1,95 @@
+@media screen and (max-width: 479px){
+
+
+/*------------- 1st page -------------*/
+
+
+	#gallery li:nth-child(3n) {
+		clear: left;
+	}
+	#gallery li:nth-child(6n) {
+		clear: right;
+	}
+}
+
+
+
+@media screen and (min-width: 480px){
+
+	/*------------- TWO COLUMN LAYOUT -------------*/
+	/*------------- 3rd page -------------*/
+
+
+	#primary{
+		width: 50%;
+		float: left;
+
+	}
+
+	#secondary{
+		width: 40%;
+		float: right;
+	}
+
+
+	/*------------- 1st page -------------*/
+
+	#gallery li{
+		width: 28.333333%;
+	}
+
+
+	/*------------- 2nd page -------------*/
+
+	#mypic{
+		float: left;
+		margin: 0 6% 80px 10%;
+	}
+}
+
+
+
+
+@media screen and (min-width: 660px){
+
+	/*------------- HEADER -------------*/
+
+	nav {
+		background: none;
+		float: right;
+		font-size: 1.125em;
+		margin-right: 5%;
+		
+		text-align: right;
+		width: 45%; 
+
+
+	}
+
+	/*#logo{
+		float: left;
+		margin-left: 5%;
+		text-align: left;
+		width: 45%;
+	}*/
+
+	.name{
+		font-size: 2.5em;
+		
+		text-align: left;
+
+	}
+
+	.job{
+		font-size: 0.825em;
+		margin-bottom: 20px;
+		
+		text-align: left;
+	}
+
+
+
+
+	 
+	
+}

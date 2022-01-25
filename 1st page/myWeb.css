@@ -1,0 +1,167 @@
+
+/*--------------------- main styles-----------------*/
+
+/*------------- header -------------*/
+
+
+.head{
+
+	padding-top:5px;
+	padding-bottom:20px;
+	padding-left:30px;
+	padding-right:30px;  
+	
+	background-color: lightgreen;
+	border-bottom: 5px solid #599a68;
+	
+	margin-bottom: 5%;
+
+	
+
+}
+
+.name{
+	text-align: center;
+	color: white;
+	font-family: 'Open Sans', Sans-serif;
+	font-style: 
+	font-size:;
+}
+.job{
+	text-align: center;
+	color: white;
+	font-family: 'Changa One', Sans-serif;
+	font-style: 
+	font-size:;
+}
+
+/*------- links---------*/
+
+nav{
+	text-align: center;
+}
+nav a {
+
+
+	
+	color: white;
+	font-style: 
+	font-size:1.2em;
+
+	font-weight: 800;
+	padding: 15px 10px;
+
+
+}
+ nav a:visited {
+
+
+	
+	color: darkgreen;
+}	
+
+nav a.selected, nav a:hover{
+
+	color: darkgreen;
+}
+
+a {
+	color: green;
+	text-decoration: none;
+	font-size: ;
+}
+
+
+/*--------------- BODY ---------------*/
+
+img{
+	max-width: 100%;
+}
+
+/*--------- 1st page ---------*/
+
+#gallery ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	background-color:#f5f5f5;
+	color:#bdc3c7 ;
+}
+
+#gallery li a p {
+
+	margin: 0;
+	padding: 5%;
+	font-size: 0.75em;
+	color: #bdc3c7;
+
+}
+
+/*--------- 2nd page ---------*/
+#mypic{
+
+    
+
+	display: block;
+	border-radius: 150px 150px 150px 150px;
+	width: 150px;
+	height: 150px;
+
+	margin: auto;
+	
+	
+	
+}
+
+#about {
+	color: grey;
+	margin: 0 20% 0 20%;
+	
+}
+
+/*--------- 3rd page ---------*/	
+#Ginfo {
+	color: grey;
+	margin: 2% 10% 0 10%;
+
+	
+	
+}
+#Cdets {
+
+	color: grey;
+	margin: 2% 5% 0 10%;
+	
+}
+
+table {
+	
+margin-left: 20%;
+margin-right: 20%
+
+}
+
+
+/*------------- footer -------------*/
+.foot{
+	margin-top: 15%;
+	text-align: center;
+	clear: both;
+	color: grey;
+	font-size: 0.75em;
+}
+
+footer a img {
+	width: 23px;
+	height: 25px;
+	border-radius: 5px 5px 5px 5px;
+
+
+	
+}
